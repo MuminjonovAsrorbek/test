@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #e0e8f0; 
+    width: 400px;
+    height: 500px;
+    margin: 200px auto; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding-top: 15px;
+}
+.header-main{
+    margin-right: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    width: 350px;
+    height: 230px;
+    text-align: center;
+}
+
+.header {
+    
+    background-color: #0F6FDA;
+    padding: 50px 0; 
+    
+    border-radius: 5px;
+    width: 350px;
+    height: 230px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px; 
+    color: white;
+    font-style: bold; 
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(243, 228, 228);
+    font-style: normal; 
+
+}
+
+.form-section {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #F7F8FC;
+    padding: 20px;
+}
+.form-section-two{
+    display: flex;  
+    align-items: center; 
+    padding: 20px;
+    background-color: #F7F8FC;
+}
+.first-button {
+    background-color: #0F6FDA; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 14px;
+}
+button {
+    background-color: #e0e8f0; 
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-style: bold;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #41a047; 
+}
+.icon-section{
+    text-align: center;
+    background-color: white;
+    height: 80px;
+    font-size: 32px;
+    padding-top: 20px;
+}
+.second-button{
+    width: 150px;
+}
+.three-button{
+    width: 150px;
+    margin-left: 5px;
+}
